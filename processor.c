@@ -44,3 +44,10 @@ struct registers {
   uint16_t sp;
   uint16_t pc;
 } extern registers;
+
+// Instruction Lookup Struct
+struct instruction {
+  char name[15];
+  int length;
+  void (*fcnPtr)();
+};
