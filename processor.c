@@ -51,3 +51,6 @@ struct instruction {
   int length;
   void (*fcnPtr)();
 };
+
+// 0x00
+void nop(void) {}
