@@ -54,3 +54,5 @@ struct instruction {
 
 // 0x00
 void nop(void) {}
+
+void LD_A_B(void) { registers.a = registers.b; }
